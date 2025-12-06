@@ -1,8 +1,10 @@
+  //Try this first if your pir sensor is not working
+  //This code tests the basic functionality of a PIR sensor
   #define SECOND 1000UL
   #define MINUTE (60UL * SECOND)
 
-  int ledPin = 13;               
-  int pirPin = 6;                
+  int ledPin = 13;  // Cathode Led On Pin 13              
+  int pirPin = 6;   // PIR Sensor Output Pin
 
   int lastPirVal = LOW;           
   int pirVal;                   
