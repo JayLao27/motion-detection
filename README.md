@@ -2,7 +2,7 @@
 
 A simple motion detection system using a PIR sensor to control an LED.
 
-## Hardware Setup
+## Hardware Setup to test your PIR sensor to detect motion.
 
 | Component | Arduino Pin |
 |-----------|------------|
@@ -18,19 +18,22 @@ The PIR sensor detects motion and triggers the LED:
 ## PIN Configuration
 
 - **PIR Pin**: Must be connected to pin **6**
+- **PIR Pin**:VCC Must be connected to pin **5V**
+- **PIR Pin**:GND Must be connected to pin **GND**
 - **LED Pin**: Cathode must be connected to pin **13**
+- **LED Pin**: Anode must be connected to pin **GND**
 
-## LED States
+## LED States when motion is detected.
 
 <table>
   <tr>
     <td align="center">
       <img src="https://i.imgur.com/PmSL6r4.jpg" width="300"><br>
-      <b>ON</b>
+      <b>Motion Detected!</b>
     </td>
     <td align="center">
       <img src="https://i.imgur.com/FzmRvTy.jpg" width="300"><br>
-      <b>OFF</b>
+      <b>Motion Ended!</b>
     </td>
   </tr>
 </table>
