@@ -1,3 +1,5 @@
+// This code sends an SMS alert when motion is detected by the PIR sensor.
+// SMS Alert System with PIR Sensor using SIM800L
 #define TINY_GSM_MODEM_SIM800
 
 #define SerialMon Serial             
