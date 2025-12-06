@@ -23,7 +23,7 @@ The PIR sensor detects motion and triggers the LED:
 - **LED Pin**: Cathode must be connected to pin **13**
 - **LED Pin**: Anode must be connected to pin **GND**
 
-## LED States
+## LED States when motion is detected.
 
 <table>
   <tr>
