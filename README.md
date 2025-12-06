@@ -2,7 +2,7 @@
 
 A simple motion detection system using a PIR sensor to control an LED.
 
-##Testing PIR SENSOR.
+## Testing PIR SENSOR.
 ## Hardware Setup to test your PIR sensor to detect motion.
 
 | Component | Arduino Pin |
