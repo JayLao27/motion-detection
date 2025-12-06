@@ -29,11 +29,11 @@ The PIR sensor detects motion and triggers the LED:
   <tr>
     <td align="center">
       <img src="https://i.imgur.com/PmSL6r4.jpg" width="300"><br>
-      <b>ON</b>
+      <b>Motion Detected!</b>
     </td>
     <td align="center">
       <img src="https://i.imgur.com/FzmRvTy.jpg" width="300"><br>
-      <b>OFF</b>
+      <b>Motion Ended!</b>
     </td>
   </tr>
 </table>
