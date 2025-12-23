@@ -1,52 +1,8 @@
-# Motion Detection Arduino Project
+# SMS Motion Detection Arduino Project
 
-A simple motion detection system using a PIR sensor to control an LED.
+A motion detection system using a PIR sensor with SMS alerts via SIM800L module.
 
-## Hardware Setup to test your PIR sensor to detect motion.
-**Testing**: PIR SENSOR.
-
-| Component | Arduino Pin |
-|-----------|------------|
-| PIR Sensor | 6 |
-| LED Cathode | 13 |
-
-## How It Works
-
-The PIR sensor detects motion and triggers the LED:
-- **Motion Detected**: LED turns ON → Serial output shows timestamp
-- **Motion Ended**: LED turns OFF → Serial output shows timestamp
-
-## PIN Configuration
-
-- **PIR Pin**: Must be connected to pin **6**
-- **PIR Pin**:VCC Must be connected to pin **5V**
-- **PIR Pin**:GND Must be connected to pin **GND**
-- **LED Pin**: Cathode must be connected to pin **13**
-- **LED Pin**: Anode must be connected to pin **GND**
-
-## LED States when motion is detected.
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://i.imgur.com/PmSL6r4.jpg" width="300"><br>
-      <b>Motion Detected!</b>
-    </td>
-    <td align="center">
-      <img src="https://i.imgur.com/FzmRvTy.jpg" width="300"><br>
-      <b>Motion Ended!</b>
-    </td>
-  </tr>
-</table>
-
-## Getting Started
-
-1. Connect PIR sensor to pin 6
-2. Connect LED cathode to pin 13
-3. Upload `motion-detection.ino` to your Arduino board
-4. Open Serial Monitor (9600 baud) to view motion events
-
-## SMS Motion Detection (`sms-motion.ino`)
+## SMS Motion Detection (`sms-interrupt.ino`)
 
 After confirming your PIR sensor works, you can implement the SMS alert system:
 
@@ -78,3 +34,7 @@ After confirming your PIR sensor works, you can implement the SMS alert system:
 - The SIM800L must complete network registration before motion detection will trigger SMS alerts
 - The blinking pattern (every 3 seconds) confirms successful network connection
 - Make sure your SIM card has active service and SMS capability
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
